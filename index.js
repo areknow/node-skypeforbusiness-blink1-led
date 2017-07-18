@@ -7,7 +7,7 @@ var blink1 = new Blink1();
 
 //build timestamp
 var moment = require('moment');
-timestamp = moment(+ new Date()).format("MM/DD/YYYY h:mm:ss")
+var timestamp = moment().toISOString();
 
 //this is the logfile from skype for business mac
 file = "/Users/arnaudcr/Library/Containers/com.microsoft.SkypeForBusiness/Data/Library/Logs/com.microsoft.SkypeForBusiness/sfbmac.log"
@@ -44,3 +44,5 @@ function statusString(status) {
     'xmlns="http://schemas.microsoft.com/rtc/2012/03/ucwa">'+
     '<property name="availability">'+status+'</property></resource>';
 }
+
+
