@@ -1,0 +1,20 @@
+{
+  "name": "node-sfb",
+  "productName": "node-sfb",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "repository": "user/repo",
+  "author": {
+    "name": "Arnaud P. Crowther",
+    "email": "hi@arnaud.cr",
+    "url": "http://arnaud.cr"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "file-tail": "^0.3.0",
+    "node-blink1": "^0.2.2"
+  }
+}
